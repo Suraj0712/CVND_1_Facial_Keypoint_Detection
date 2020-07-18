@@ -32,3 +32,22 @@ Review:
   * Feature matching
   * Detection
 
+/ ************************************************************************** /
+L5T2 : Frequency in the image -> rate of change of intensity, High frequency component corresponds to eges. Frequency matrics can tell about the whether Image is smooth or not
+L5T3 : NOTEBOOK : FFT calculation
+L5T5 : Noise -> kernal should be normalized to avoid the shift
+L5T8 : Edge -> sudden change in intensity, sobel filter, Magnitude, direction
+L5T9 : Notebook : Sobel implementation
+L5T11 : Gaussian blur -> Neghboring pixels have simillar intensities
+L5T12 : NOTEBOOK : Gaussian blurring
+L5T15 : Canny edge detector -> gaussian blur -> sobel edge detection -> non maxima supression(based on magnitude) -> Based on image intensity we apply two threshold to determine the edge
+L5T16 : NOTEBOOK : Canny implementation
+L5T18 : Hough transform : conversion of image from image space to hough space. xy -> mb polar coordinate system coz m can go to infinity, line in image is point. voting be performed to determing the line
+L5T21 : NOTEBOOK : Houghline and Houghcircle detection
+L5T23 : Haar Cascades- > Detect the Haar feature detect in image -> img segmentation using chain of filters to remove the background
+L5T24 : NOTEBOOK : Haar for face detection
+L5T26 : Features can be color based(Cant distinguish the highway lane yellow and white) or shape based 
+ 
+
+/ ************************************************************************** /
+
