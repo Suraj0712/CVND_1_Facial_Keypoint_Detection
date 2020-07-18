@@ -1,0 +1,34 @@
+CVND
+L1T4 : Course outline 1.Face key point detection 2. image tagging 3. SLAM
+L4T3 : Input -> preprocessing -> ROI detection -> Feature extraction -> Matching/ recogn.
+L4T7 : Pin hole camera
+L4T8 : Image as a function f(x,y,color_space) -> intensities
+L4T9 : NOTEBOOK -> Image read, display, get and set pixel intsnsity, color space conversion
+L4T10 : Image as nd array
+L4T12 : NOTEBOOK : RGB channel visualisation
+L4T15 : NOTEBOOK ->  Background thresholding based on color using inrange opencv function
+L4T17 : Colorspaces rgb, hsv, h->hue->color shade, s->saturation->% color, v->value->reflectiveness
+L4T18 : NOTEBOOK -> Color space conversion and channel visualization
+L4T19 : Day-Night classifier (Approach: Average brightness, average value)
+L4T22 : Image classification | Accuracy | Labels -> (categorical = strings, Numerical -> integer and one hot)
+L4T23 : Feature : unique and measurable traints of image
+L4T25 : NOTEBOOK : Preprocessing and resizing
+L4T28 : NOTEBOOK : Average intensity based classification
+L4T30 : Evaluation : predicted correctly / tottal
+
+Review:
+1. Input data
+  * Image or image frames
+2. Pre processing
+  * Noise reduction
+  * Scaling
+  * Color space manipulation
+3. ROI detection
+  * object detection
+  * image segmentation
+4. Feature extraction
+  * Extract festures which unique to image
+5. Prediction & Recognition
+  * Feature matching
+  * Detection
+
